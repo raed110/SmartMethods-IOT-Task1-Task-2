@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert speech to text</title>
+    <link rel="stylesheet" type="text/css" href="Speech To Text.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+         <h1>Convert speech to text</h1> 
+         <textarea style="text-align: left;"; id="output" name="output" rows="10" cols="30" placeholder="speak..."></textarea>
+         <select name="language_Rec" id="language_Rec">
+            <option value="ar">Arabic</option>
+            <option value="en">English</option>
+         </select>    
+            <button id="start" name="start">Start Recording</button>
+            <button  id="stop" name="stop">Stop Recording</button>
+    </div>
+
+    <script src="Speech To Text.js"></script>
+
+</body>
+
+</html>
